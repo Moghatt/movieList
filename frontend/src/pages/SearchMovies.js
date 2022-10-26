@@ -3,16 +3,15 @@ import axios from "axios";
 
 import MovieFilters from "../components/MovieFilters";
 import MovieList from "../components/MovieList";
-const omdbApiKey = 'c7e7efd1'
+
 export default function SearchMovies(props) {
-  console.log(process.env.API_KEY)
     const { handleAddToList, savedMoviesMap, handleRemoveFromList } = props;
     const [movies, setMovies] = useState([]);
 
     const handleSearchMovies = (queries) => {
         const { s } = queries;
         
-        axios.get(`http://www.omdbapi.com/?s=${s}&apikey=${omdbApiKey}`)
+        axios.get(`http://www.omdbapi.com/?s=${s}&apikey=${process.env.REACT_APP_API_KEY}`)
             .then((res) => {
                 if (Array.isArray(res.data.Search)) {
                     setMovies(res.data.Search.map((s) => {
