@@ -1,7 +1,7 @@
 # Project Name
 The briefest description of my cool project and why you should all use it.
 
-## :computer: [Click here](MovieFavList.surge.sh) to see my live project!
+## :computer: [Click here](https://moviefavlist.surge.sh/) to see my live project!
 
 ## :page_facing_up: About
 - How to use my awesome project.
