@@ -1,5 +1,6 @@
 # Project Name
 The briefest description of my cool project and why you should all use it.
+if you want to see movie and forget about after days what was that now you can use my web-app and save you wishlist movies.
 
 ## :computer: [Click here](https://moviefavlist.surge.sh/) to see my live project!
 
@@ -20,18 +21,14 @@ $ node app.js
 ![Wireframing](https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
 
 ## :rocket: Cool tech
-- Programming languages
-- Libraries
-- Animations
-- Anything else you'd be proud to show your parents
+- React
+- Api
+- Mui
 
-## :scream: Bugs to fix :poop:
-- Anything a little broken
-- Anything a LOT broken
-- Buttons to not click too many times (cause its broken :unamused:)
+
 
 ## :sob: Lessons learnt
-What I would do differently if I could wind back the clock...
+What I would do differently if I could wind back the clock, Start with simple idea and then add feature to it not start with big thing.
 
 ## :white_check_mark: Future features
-Cool things I would add if I can keep working on this
+Cool things I would add if I can keep working on this is adding animation to it adding another Api to show the preview of movies
